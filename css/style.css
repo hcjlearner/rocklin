@@ -5,9 +5,8 @@ h1 { font-size:1em;}
 .aHeader {background-color:yellow;max-height: 100px;}
 .aHeader:before {display:inline-block;vertical-align: top;content:"";width:70px;height: 100px;background-color: #ffffff;position:relative;left:40px;}
 .img-profilo {display:inline-block;vertical-align: top;position:relative;width: 100px;height: 100px;border-radius:50px;background-color:red;}
-
-
 .bProfile {display:inline-block;position: relative;}
+
 
 .h1-tit {display:inline-block;vertical-align: middle;font-size:50px;margin: 10px 0 0 0;line-height: 40px;}
 .h1-tit span { display:block; font-size:30px; line-height:30px; margin-left:-4px;}
@@ -15,14 +14,25 @@ h1 { font-size:1em;}
 
 
 .bInfo {display:inline-block;float:right;width: 60%;}
-.bInfo ul {width:100%; padding:0; margin: 15px 0 0 20px; list-style:none;}
+.bInfo ul {width:100%; padding:0; margin: 17px 0 0 36spx; list-style:none;}
 .bInfo .li-info a {vertical-align:top; color: #000; text-decoration:none;padding-left: 8px;}
 .bInfo .li-info { display:inline-block; margin:12px 10px;}
 .bInfo .li-info:before {display:inline-block;content:""; width:15px; height:15px; background-color: #000000;border-radius:15px;}
 
+
 .bContent {display:inline-block; vertical-align:top;width: 45%;  margin: 0 40px 0 0;}
-.h4-stit { background-color:yellow; padding:5px;}
+.h4-stit { background-color:yellow;padding :5px 0 5px 45px; font-size :1em; margin :5px 0 5px 15px; position :relative;}
+.h4-stit:before{display :inline-block; vertical-align :top; content :""; width :40px; height :40px; border-radius :50%; background-color :black; position :absolute; left :-15px; top :-3px;}
+
 .bContent:nth-child(odd) { margin-left:0;}
 .bContent:nth-child(even) { margin-right:0;}
+
+.h4-stit_1 { background-color:yellow;padding :5px 0 5px 45px; font-size :1em; margin :5px 0 5px 15px; position :relative;}
+.h4-stit_1:before{display :inline-block; vertical-align :top; content :""; width :40px; height :40px; border-radius :50%; background-color :black; position :absolute; left :-15px; top :-3px;}
+
+.aFooter{background-color: #c3c0c0;padding-top: 60px;}
+.aFooter:before {display:inline-block;vertical-align: top;content:"";width:70px;height: 100px;background-color: #ffffff;position:relative;left:40px;}
+
+
 
 
